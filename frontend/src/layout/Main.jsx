@@ -5,7 +5,7 @@ import RightBar from "../pages/RightBar/RightBar";
 const Main = () => {
   return (
     <div className=" mx-auto px-5 lg:px-10">
-      <div className="flex items-center justify-between gap-5">
+      <div className="">
         <Sidebar />
         <Outlet />
         <RightBar />

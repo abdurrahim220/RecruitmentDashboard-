@@ -1,10 +1,11 @@
 import React from "react";
-import Sidebar from "../Sidebar/Sidebar";
 
+
+import Search from "../../components/Search";
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="my-5 ">
+      <Search/>
     </div>
   );
 };
